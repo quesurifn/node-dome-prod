@@ -46,7 +46,125 @@
 
 		<!-- Header
 		============================================= -->
-    <%- inlcude snippets/header.ejs %>
+		<header id="header" class="transparent-header dark full-header no-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul>
+							<li class="current"><a href="index-fullscreen-slider.html"><div>Home</div></a>
+
+							</li>
+							<li class="mega-menu" id="kDropdown"><a href="index-shop.html"><div>Products</div></a>
+							</li>
+							<li class="mega-menu"><a href="https://support.domeha.com/hc/en-us/categories/115000497488-Integration" target="_blank"><div>How-To's</div></a>
+							</li>
+							<li class="mega-menu"><a href="#"><div>Blog</div></a>
+
+							</li>
+							<li class="mega-menu"><a href="https://support.domeha.com/hc/en-us" target="_blank"><div>Support</div></a>
+
+							</li>
+						</ul>
+
+						<!-- Top Cart
+						============================================= -->
+						<div id="top-cart">
+							<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+							<div class="top-cart-content">
+								<div class="top-cart-title">
+									<h4>Shopping Cart</h4>
+								</div>
+								<div class="top-cart-items">
+									<div class="top-cart-item clearfix">
+										<div class="top-cart-item-image">
+											<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+										</div>
+										<div class="top-cart-item-desc">
+											<a href="#">Blue Round-Neck Tshirt</a>
+											<span class="top-cart-item-price">$19.99</span>
+											<span class="top-cart-item-quantity">x 2</span>
+										</div>
+									</div>
+									<div class="top-cart-item clearfix">
+										<div class="top-cart-item-image">
+											<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+										</div>
+										<div class="top-cart-item-desc">
+											<a href="#">Light Blue Denim Dress</a>
+											<span class="top-cart-item-price">$24.99</span>
+											<span class="top-cart-item-quantity">x 3</span>
+										</div>
+									</div>
+								</div>
+								<div class="top-cart-action clearfix">
+									<span class="fleft top-checkout-price">$114.95</span>
+									<button class="button button-3d button-small nomargin fright">View Cart</button>
+								</div>
+							</div>
+						</div><!-- #top-cart end -->
+
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+							</form>
+						</div><!-- #top-search end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+			<div class="hidden-dropdown hide_k">
+				 <div class="row" style="padding-top: 1em; padding-bottom: 2em;">
+					 <div class="col-md-6 col-sm-6" style="width: 52% !important;">
+						 <div class="prod-nav-cont border-white">
+								 <h1 id="h1_k">Z-Wave Devices</h1>
+								 <ul id="list" class="list2" style="float: left; padding-right: 3em;">
+									 <li><a href="#">Motion Sensor</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-leak-sensor">Water Detector</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-smart-plug-sensor">Smart Plug</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-door-and-window-sensor">Door Sensor</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-door-and-window-pro-sensor">Door Sensor Pro</a></li>
+								 </ul>
+								 <ul id="list" class="list2" style="float: left;">
+									 <li><a href="https://domeha.com/products/z-wave-siren-sensor">Siren</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-mouser-sensor">Mouser</a></li>
+									 <li><a href="https://domeha.com/products/z-wave-water-main-shutoff-sensor">Water Valve</a></li>
+								 </ul>
+								 <div style="clear: both; margin: auto;">
+									 <img class="img-responsive lineup_k" src="images/dome-sensors.png" alt="lineup of products"/>
+								 </div>
+						 </div>
+					 </div>
+					 <div class="col-md-6 col-sm-6" style="width: 48%;">
+						 <div class="prod-nav-cont-2" style="margin-left: -2em;">
+							 <img class="logo_k img-responsive" src="images/guardian-text.png" alt="guardian logo" />
+							 <p>
+								A stand-alone system (no hub) with RF, Wifi and LoRa for leak and flood prevention. Z-Wave optional.
+							 </p>
+							 <img class="img-responsive product_k" src="images/dome-guardian.png" alt="guardian product" />
+						 </div>
+					 </div>
+			 </div>
+		</header><!-- #header end -->
 
 		<section id="slider" class="slider-parallax swiper_wrapper full-screen force-full-screen clearfix">
 
